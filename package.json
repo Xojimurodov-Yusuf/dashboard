@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://github.com/Xojimurodov-Yusuf/dashboard",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -22,6 +23,5 @@
     "gh-pages": "^6.3.0",
     "vite": "^6.2.4",
     "vite-plugin-vue-devtools": "^7.7.2"
-  },
-  "homepage": "https://github.com/Xojimurodov-Yusuf/dashboard"
+  }
 }
