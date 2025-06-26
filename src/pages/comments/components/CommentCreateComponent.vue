@@ -37,7 +37,7 @@ function submitComent() {
             <input v-model="email" maxlength="40" class="admin-email" type="email" placeholder="Type Email">
             <textarea v-model="comment" maxlength="100" class="admin-comment" type="text"
                 placeholder="Type Comment"></textarea>
-            <button type="submit">Publicate Comment</button>
+            <button class="submit-comment" type="submit">Publicate Comment</button>
         </form>
     </div>
 </template>
@@ -45,7 +45,7 @@ function submitComent() {
 <style>
 .create-comment-div {
     width: 40rem;
-    height: 33rem;
+    height: 38rem;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -91,5 +91,24 @@ function submitComent() {
     left: 93%;
     top: 2%;
     cursor: pointer;
+}
+
+.submit-comment{
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: 1px solid white;
+    outline: none;
+    font-size: 1.8rem;
+    color: white;
+    transition: 450ms ease;
+    background: none;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.submit-comment:hover{
+    background-color: white;
+    color: black;
 }
 </style>
