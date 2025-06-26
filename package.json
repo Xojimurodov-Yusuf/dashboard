@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://github.com/Xojimurodov-Yusuf/dashboard",
+  "homepage": "https://xojimurodov-yusuf.github.io/dashboard",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
